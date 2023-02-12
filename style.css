@@ -1,0 +1,161 @@
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: repeat-x;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+}
+
+h4 {
+  margin: 4px;
+}
+
+p {
+  margin: 25px 0;
+  color: hsl(223, 31%, 35%);
+  line-height: 1.5;
+}
+
+/*Container  */
+.order_card {
+  display: block;
+  overflow: hidden;
+  margin: 5% auto;
+  width: 450px;
+  height: 750px;
+  background-color: hsl(225, 100%, 99%);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 4%;
+  text-align: center;
+}
+
+/*Container Text Content  */
+.order_card_content {
+  padding: 20px 13%;
+}
+
+/*Subsribsion plan */
+
+.sub_name {
+  font-weight: 900;
+}
+
+.price {
+  color: hsl(223, 25%, 42%);
+}
+
+.sub_plan {
+  display: flex;
+  background-color: hsl(224, 45%, 94%);
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  padding: 20px 0;
+}
+
+.sub_plan_text {
+  position: relative;
+  left: -15px;
+}
+.change_sub {
+  text-decoration: underline;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+
+.change_sub:hover {
+  color: hsl(245, 64%, 62%);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Buttons */
+
+.procced_button {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  padding: 0 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 15px 0;
+  margin: 10% 0 5% 0;
+  box-shadow: 0 5px 30px 2px hsl(224, 23%, 55%);
+}
+
+.procced_button:hover {
+  background-color: hsl(245, 72%, 56%);
+  cursor: pointer;
+}
+
+.cancel_button {
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.cancel_button:hover {
+  color: hsl(245, 72%, 56%);
+  cursor: pointer;
+}
+
+/*Contribution */
+.attribution {
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .order_card {
+    display: block;
+    overflow: hidden;
+    margin: 5% auto;
+    width: 350px;
+    height: 680px;
+    background-color: hsl(225, 100%, 99%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 4%;
+    text-align: center;
+  }
+
+  .order_card_content {
+    padding: 10px 7%;
+  }
+
+  .sub_plan {
+    display: flex;
+    background-color: hsl(224, 45%, 94%);
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+
+  .procced_button {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    padding: 0 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+    margin: 2% 0;
+    box-shadow: 0 5px 30px 2px hsl(224, 23%, 55%);
+  }
+
+  .cancel_button {
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+  }
+}
