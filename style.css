@@ -98,6 +98,7 @@ p {
   font-size: 1rem;
   color: hsl(224, 23%, 55%);
   cursor: pointer;
+  background-color: transparent;
 }
 
 .cancel_button:hover {
@@ -157,5 +158,6 @@ p {
     font-weight: bold;
     font-size: 1rem;
     color: hsl(224, 23%, 55%);
+    background-color: transparent;
   }
 }
